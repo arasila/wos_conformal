@@ -1,4 +1,4 @@
-# A Monte Carlo Algorithm for Stochastic Simulation of Haromonic Solutions of Dirichlet-Neumann Mixed Boundary Value Problems and Conformal Mappings on Simply Connected Domains
+# An Efficient Monte Carlo Algorithm for Stochastic Simulation of Harmonic Solutions of Dirichlet-Neumann Mixed Boundary Value Problems and Conformal Mappings on Simply Connected Domains
 
 Complete algorithm, examples and visualisation tools implemented in C (simulation) and Python (visualisation)
 
