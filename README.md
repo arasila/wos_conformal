@@ -10,5 +10,5 @@ The softare is programmed by Mr. Qiansheng Han under supervision of Assoc. Prof.
 More information about our team: https://sites.gtiit.edu.cn/rasilagroup/
 
 Copyright, 2024, developers and Guangdong Technion - Israel Institute of Technology.
-Licenced under conditions of the MIT Open Source License: https://opensource.org/license/mit
+Licenced under conditions of the GNU GPL License version 3.0 or later: https://www.gnu.org/licenses/gpl-3.0.html
 
