@@ -12,6 +12,11 @@ current_dir=$(basename "$PWD")
 # Capture start time
 start_time=$(date +%s)
 
+
+rm -f points*
+rm -f run.sh.{o,e}*
+rm -f core.*
+
 # Remove the file with the name based on the current directory if it exists
 if [ -f "${current_dir}_modulus.txt" ]; then
     rm "${current_dir}_modulus.txt"
