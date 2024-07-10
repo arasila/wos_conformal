@@ -1,5 +1,6 @@
 # A Monte Carlo Algorithm for Stochastic Simulation of Haromonic Solutions of Dirichlet-Neumann Mixed Boundary Value Problems
-# Complete algorithm, examples and visualisation tools implemented in C (simulation) and Python (visualisation)
+
+Complete algorithm, examples and visualisation tools implemented in C (simulation) and Python (visualisation)
 
 Source code and data is provided for all examples given in the paper the paper:
 Q. Han, A. Rasila, T. Sottinen: Efficient simulation of mixed boundary value problems and conformal mappings. https://arxiv.org/abs/2312.15382
