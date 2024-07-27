@@ -18,7 +18,7 @@ typedef struct {
 #define Y_SLIDES 100
 //#define Z_SLIDES 20
 #define NUM_POINTS X_SLIDES * Y_SLIDES
-#define NUM_SHOTS 1000000.0 /* Must be a float number */
+#define NUM_SHOTS 5000000.0 /* Must be a float number */
 #define PI 3.14159265358979323846
 #define EPSILON 1e-6
 //#define TEST

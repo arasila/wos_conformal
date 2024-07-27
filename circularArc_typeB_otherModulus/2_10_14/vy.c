@@ -6,15 +6,6 @@
 #include <time.h>
 #include <string.h>
 
-/*
-typedef struct {
-	double x;
-	double y;
-	double result;
-	unsigned int num_shots;
-} point_t, *Point;
-*/
-
 #define HEIGHT 1.0
 #define PI 3.14159265358979323846
 #define x_center 0.5 
@@ -27,12 +18,12 @@ typedef struct {
 //#define TEST
 #define length(x, y) sqrt((x)*(x)+(y)*(y))
 
-#define v1_x 0.96592582628
-#define v1_y 0.25881904510
-#define v2_x 0.25881904510
-#define v2_y 0.96592582628
-#define v3_x 0.0
-#define v3_y 1.0
+#define v1_x 0.9659258262890682
+#define v1_y 0.25881904510252074
+#define v2_x 0.25881904510252074
+#define v2_y 0.9659258262890682
+#define v3_x -0.25881904510252074
+#define v3_y 0.9659258262890682
 #define v4_x 1.0
 #define v4_y 0.0
 
@@ -115,7 +106,7 @@ inline unsigned int walk_on_spheres(double x1, double y1, unsigned int NN, doubl
                         wy = wy/denom;
                 }
 
-                if (wx >= 0 && wy >= 0 && !(tan(2.0 / 24.0 * PI)*wx < wy  && wy < wx*tan(10.0 / 24.0 * PI))) {
+                if (wy >= 0 && !( (tan(2.0 / 24.0 * PI)*wx < wy  && wy < wx*tan(10.0 / 24.0 * PI))||wx*tan(7.0 / 12.0 * PI)>wy)){
                     distance = sqrt(fmin(
                         (wx - 1) * (wx - 1) + wy * wy,
                         fmin(
