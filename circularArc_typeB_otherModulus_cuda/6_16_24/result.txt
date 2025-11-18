@@ -1,0 +1,4 @@
+fm2h = 0.388506, fmh = 0.443342, fph = 0.553326, fp2h = 0.610474, ux = 0.548250
+cfm2h = 0.527083, cfmh = 0.594238, cfph = 0.735831, cfp2h = 0.807611, vy = 0.710178
+modulus h = ux/vy = 0.771990
+modulus of the conjugate quadrilateral h = vy/ux = 1.295354
